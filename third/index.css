@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.main {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 100px;
+    width:  100%;
+    background-color: rgb(201, 198, 198);
+    position: relative;
+}
+
+.square {
+    height: 80px;
+    width: 80px;
+    background-color: cornflowerblue;
+    margin: 10px 20px;
+    position: absolute;
+}
+
+.message {
+    font-size: 20px;
+    padding: 30px 12%;
+}
+
+.layer {
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+}
+
+.one {
+    background-color: cornflowerblue;
+}
+
+.two {
+    background-color: rgb(89, 236, 199);
+}
+
+.three {
+    background-color: rgb(195, 226, 145);
+}
+
+.four {
+    background-color: rgb(239, 243, 8);
+}
