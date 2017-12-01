@@ -1,3 +1,7 @@
+body {
+    padding: 10px;
+}
+
 .top {
     width: 100%;
     height: 200px;
@@ -5,11 +9,44 @@
     margin-bottom: 30px;
 }
 
+.purple-triangle {
+    width: 40px;
+    height: 120px;
+    background-color: purple;
+    margin: 70px 30px 10px 8px;
+    display: inline-block;
+}
+
+.green-triangle {
+    width: 450px;
+    height: 180px;
+    background-color: green;
+    display: inline-block;
+    margin: 10px;
+}
+
+.circle {
+    background-color: skyblue;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 10px 10px 30px;
+}
+
 .middle {
     width: 100%;
     height: 250px;
     border: dotted black 3px; 
     margin-bottom: 30px;
+}
+
+.yellow-triangle {
+    width: 90%;
+    height: 170px;
+    background-color: #ffffad;
+    box-shadow: 10px 10px 3px 0px rgb(75, 74, 74);
+    margin: 41px auto;
 }
 
 .bottom {
@@ -23,8 +60,9 @@
     vertical-align: center;
 }
 p {
-    padding: 27%;
+    padding: 22%;
     font-size: 28px;
     letter-spacing: 0.5em;
     color: navy;
 }
+
